@@ -57,4 +57,6 @@ export class Sudoku {
   hasEmptyCells() {
     return Boolean(findEmptyCell(this.grid));
   }
+
+  
 }
