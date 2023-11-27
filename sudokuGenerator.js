@@ -80,8 +80,8 @@ function validateBox(grid, row, column, value) {
     return true;
 }
 
-function removeCells(grid) {
-    const DIFFICULTY = 30;
+export function removeCells(grid) {
+    const DIFFICULTY = 1;
     const resultGrid = [...grid].map(row => [...row]);
 
     let i = 0;
